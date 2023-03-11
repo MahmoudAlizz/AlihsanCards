@@ -26,6 +26,11 @@ const FilterEmployee = () => {
                 <div id='accordion'>
                     <div className="card text-center">
                         <div className="card-header ">
+                            <h5 className='font-weight-bold'>Filters</h5>
+                        </div>
+                    </div>
+                    <div className="card text-center">
+                        <div className="card-header ">
                             <a href="#col1" data-toggle="collapse" data-parent="#accordion">
                                 <h5>Gender</h5>
                             </a>
