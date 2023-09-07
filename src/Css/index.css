@@ -1,0 +1,178 @@
+table td{
+    vertical-align: middle !important;
+}
+#searchForm input{
+    border-radius: 20px 0px 0px 20px;
+
+}
+a{
+    text-decoration: none !important;
+}
+.containerMain{
+    width: 96% !important;
+    margin: auto;
+}
+
+.border-b-info{
+    border-bottom: 2px solid rgba(34, 201, 185, 0.842);
+}
+.rounded-3{
+    border-radius: 24px;
+}
+.active1 {
+    font-weight: bold;
+    color: rgb(153, 153, 109) !important;
+}
+.bg-y1{
+    border:1px solid rgb(153, 153, 109);
+}
+nav li {
+    position: relative;
+    margin-right: 10px;
+}
+
+nav li a::after{
+    top:0;
+    left:0;
+   content:"";
+   position: absolute;
+   width: 0%;
+   height:100%;
+   border:1px solid transparent;
+   transition: width 1s;
+   margin-left:10%;
+}
+
+nav li a:hover::after{
+    border-bottom:4px dotted rgb(217, 217, 90);
+   width: 80%;
+}
+
+.brand1{
+    color: rgba(5, 176, 73, 0.779) !important;
+    text-shadow: 2px 2px 0.6px rgb(238 238 231);
+    font-size: 28px;
+}
+
+#form_Employee ,#card_form{    
+    outline: 6px double #6c757dd5 !important;
+}
+
+#searchForm button{
+    border-radius: 0px 20px 20px 0px;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+#modal{
+    position: absolute;
+    top:50vh;
+    left:50%;
+    width: 30vw;
+    z-index: 100;
+    transform: translate(-50%,0%);
+}
+#exapleCard{
+    height: 160px;
+    position: absolute;
+    z-index: 100;
+    width: 100%;
+}
+
+#ooo:hover .sss{
+    transform: rotateY(180deg);
+    z-index: 200;
+}
+
+#ooo{
+    position: relative;
+}
+#exapleCard img{
+    width: 16%;
+}
+
+#sss{
+    transform:rotateY(180deg);
+    background-color: red;
+    width: 100%;
+    height: 160px;
+    position: absolute;
+    top:0
+}
+.qr{
+    position: absolute;
+    width:10%;
+    background: url(../images/images.png);
+    height: 100%;
+    top:0;
+    right: 8%;
+    background-position: center;
+}
+body{position: relative;}
+
+#form1{
+    width:0%;
+    display: none;
+}
+
+#tCard , #tCard2{
+    width: 368px;
+    height: 179px;
+    border-radius: 25px;
+    position: relative;
+}
+
+#tCard{
+    background-color: rgba(229, 229, 228, 0.993);
+}
+
+#tCard #img1{
+    width: 56px;
+    padding-top: 3px;
+}
+
+#tCard2 #img2{
+    position: absolute;
+    top:50%;
+    left:55%;
+    transform: translate(-50%,-50%);
+    width: 150px;
+}
+#tCard2 #img3{
+  margin-left:13%;
+  height: 100%;
+}
+
+#EmployeeImage{
+    height: 54%;
+    border:.5px solid rgba(5, 176, 73, 0.779);
+}
+#EmployeeImage i {
+    font-size: 64px;
+    margin: 7px 5px;
+    color: rgba(100,182,207,1);
+}
+#tCard hr{
+    margin:10px 0px 6px 0px  }
+
+.bg-p1 {
+    background-color: rgb(247,246,192);
+    height:100%;
+}
+.bg-p2{
+    border: 2px solid rgba(5, 176, 73, 0.779);
+}
+.box1{
+    height:230px;
+    border-radius: 14px;
+}
+.box1 i {
+    font-size: 55px;
+    color:white;
+    font-weight: bold;
+margin-top: 23px;
+}
+.box1 .number{
+font-size: 40px;
+margin-left:30px;
+}
